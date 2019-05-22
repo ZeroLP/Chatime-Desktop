@@ -108,5 +108,10 @@ namespace Chatime
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void CloseButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

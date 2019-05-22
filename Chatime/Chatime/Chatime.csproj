@@ -52,6 +52,12 @@
     <Compile Include="ViewModels\Embed\Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\Embed\Teas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewModels\Embed\Teas.Designer.cs">
+      <DependentUpon>Teas.cs</DependentUpon>
+    </Compile>
     <Compile Include="ViewModels\Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     </Compile>
     <EmbeddedResource Include="ViewModels\Embed\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\Embed\Teas.resx">
+      <DependentUpon>Teas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ViewModels\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>

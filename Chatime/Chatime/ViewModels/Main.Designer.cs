@@ -56,16 +56,17 @@
             this.TopMenuBar.Controls.Add(this.pictureBox1);
             this.TopMenuBar.Location = new System.Drawing.Point(0, 0);
             this.TopMenuBar.Name = "TopMenuBar";
-            this.TopMenuBar.Size = new System.Drawing.Size(735, 52);
+            this.TopMenuBar.Size = new System.Drawing.Size(978, 52);
             this.TopMenuBar.TabIndex = 0;
             this.TopMenuBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TopMenuBar_MouseDown);
             // 
             // MinimiseButton
             // 
+            this.MinimiseButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.MinimiseButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("MinimiseButton.BackgroundImage")));
             this.MinimiseButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.MinimiseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.MinimiseButton.Location = new System.Drawing.Point(571, 0);
+            this.MinimiseButton.Location = new System.Drawing.Point(814, 0);
             this.MinimiseButton.Name = "MinimiseButton";
             this.MinimiseButton.Size = new System.Drawing.Size(79, 52);
             this.MinimiseButton.TabIndex = 3;
@@ -74,14 +75,16 @@
             // 
             // CloseButton
             // 
+            this.CloseButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.CloseButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("CloseButton.BackgroundImage")));
             this.CloseButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CloseButton.Location = new System.Drawing.Point(656, 0);
+            this.CloseButton.Location = new System.Drawing.Point(899, 0);
             this.CloseButton.Name = "CloseButton";
             this.CloseButton.Size = new System.Drawing.Size(79, 52);
             this.CloseButton.TabIndex = 1;
             this.CloseButton.UseVisualStyleBackColor = true;
+            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
             // pictureBox1
             // 
@@ -96,10 +99,11 @@
             // 
             // TeaButton
             // 
+            this.TeaButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.TeaButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TeaButton.BackgroundImage")));
             this.TeaButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.TeaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.TeaButton.Location = new System.Drawing.Point(0, 52);
+            this.TeaButton.Location = new System.Drawing.Point(0, 49);
             this.TeaButton.Name = "TeaButton";
             this.TeaButton.Size = new System.Drawing.Size(75, 52);
             this.TeaButton.TabIndex = 4;
@@ -118,7 +122,7 @@
             this.SideBar.Controls.Add(this.TeaButton);
             this.SideBar.Location = new System.Drawing.Point(0, 50);
             this.SideBar.Name = "SideBar";
-            this.SideBar.Size = new System.Drawing.Size(75, 357);
+            this.SideBar.Size = new System.Drawing.Size(75, 462);
             this.SideBar.TabIndex = 5;
             // 
             // panel1
@@ -130,6 +134,7 @@
             // 
             // WebsiteButton
             // 
+            this.WebsiteButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.WebsiteButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("WebsiteButton.BackgroundImage")));
             this.WebsiteButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.WebsiteButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -141,10 +146,11 @@
             // 
             // InstagramButton
             // 
+            this.InstagramButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.InstagramButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("InstagramButton.BackgroundImage")));
             this.InstagramButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.InstagramButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.InstagramButton.Location = new System.Drawing.Point(0, 305);
+            this.InstagramButton.Location = new System.Drawing.Point(0, 410);
             this.InstagramButton.Name = "InstagramButton";
             this.InstagramButton.Size = new System.Drawing.Size(75, 52);
             this.InstagramButton.TabIndex = 8;
@@ -152,10 +158,11 @@
             // 
             // FacebookButton
             // 
+            this.FacebookButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.FacebookButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FacebookButton.BackgroundImage")));
             this.FacebookButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.FacebookButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FacebookButton.Location = new System.Drawing.Point(0, 253);
+            this.FacebookButton.Location = new System.Drawing.Point(0, 358);
             this.FacebookButton.Name = "FacebookButton";
             this.FacebookButton.Size = new System.Drawing.Size(75, 52);
             this.FacebookButton.TabIndex = 7;
@@ -163,10 +170,11 @@
             // 
             // InfoButton
             // 
+            this.InfoButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.InfoButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("InfoButton.BackgroundImage")));
             this.InfoButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.InfoButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.InfoButton.Location = new System.Drawing.Point(0, 104);
+            this.InfoButton.Location = new System.Drawing.Point(0, 96);
             this.InfoButton.Name = "InfoButton";
             this.InfoButton.Size = new System.Drawing.Size(75, 52);
             this.InfoButton.TabIndex = 6;
@@ -174,6 +182,7 @@
             // 
             // HomeButton
             // 
+            this.HomeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.HomeButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("HomeButton.BackgroundImage")));
             this.HomeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.HomeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -187,14 +196,14 @@
             // 
             this.home1.Location = new System.Drawing.Point(73, 53);
             this.home1.Name = "home1";
-            this.home1.Size = new System.Drawing.Size(662, 354);
+            this.home1.Size = new System.Drawing.Size(905, 456);
             this.home1.TabIndex = 6;
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(735, 406);
+            this.ClientSize = new System.Drawing.Size(978, 511);
             this.Controls.Add(this.home1);
             this.Controls.Add(this.SideBar);
             this.Controls.Add(this.TopMenuBar);
