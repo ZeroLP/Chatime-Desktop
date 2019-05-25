@@ -31,3 +31,4 @@ C:\Users\stubl\Desktop\github repo\Chatime-Desktop\Chatime\Chatime\obj\Debug\Cha
 C:\Users\stubl\Desktop\github repo\Chatime-Desktop\Chatime\Chatime\obj\Debug\Chatime.csproj.CoreCompileInputs.cache
 C:\Users\stubl\Desktop\github repo\Chatime-Desktop\Chatime\Chatime\obj\Debug\Chatime.exe
 C:\Users\stubl\Desktop\github repo\Chatime-Desktop\Chatime\Chatime\obj\Debug\Chatime.pdb
+C:\Users\stubl\Desktop\github repo\Chatime-Desktop\Chatime\Chatime\obj\Debug\Chatime.ViewModels.Embed.Teas.resources

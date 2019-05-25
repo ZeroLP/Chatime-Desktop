@@ -1,0 +1,25 @@
+﻿{
+  "Tea1": {
+    "Name": "Milky Assam Iced Tea",
+    "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_Assam_755x950.png",
+    "Information": "R 1092kJ, L 1610kJ"
+  },
+  
+  "Tea2": {
+    "Name": "Milky Chocolate Iced Tea",
+    "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_Chocolate_755x950.png",
+    "Information": "R 1668kJ, L 2160kJ"
+  },
+  
+  "Tea3": {
+    "Name": "Coconut Milky Iced Tea",
+    "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_Coconut_755x950.png",
+    "Information": "R 1348kJ, L 1782kJ"
+  },
+
+  "Tea4": {
+    "Name": "Earl Grey Milky Iced Tea",
+    "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_EarlGrey_755x950.png",
+    "Information": "R 1103kJ, L 1490kJ"
+  }
+}

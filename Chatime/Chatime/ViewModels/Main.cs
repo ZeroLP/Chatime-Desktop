@@ -51,7 +51,7 @@ namespace Chatime
             this.FormBorderStyle = FormBorderStyle.None;
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 15, 15));
             this.TopMenuBar.BackColor = BaseColour;
-            this.SideBar.BackColor = SideBarColour;
+            this.SideBar.BackColor = BaseColour;
 
             this.CloseButton.BackColor = BaseColour;
             this.CloseButton.FlatAppearance.BorderSize = 0;
@@ -73,11 +73,11 @@ namespace Chatime
             this.InfoButton.FlatAppearance.BorderSize = 0;
             this.InfoButton.FlatAppearance.BorderColor = TransparentColor;
 
-            this.FacebookButton.BackColor = SideBarColour;
+            this.FacebookButton.BackColor = BaseColour;
             this.FacebookButton.FlatAppearance.BorderSize = 0;
             this.FacebookButton.FlatAppearance.BorderColor = TransparentColor;
 
-            this.InstagramButton.BackColor = SideBarColour;
+            this.InstagramButton.BackColor = BaseColour;
             this.InstagramButton.FlatAppearance.BorderSize = 0;
             this.InstagramButton.FlatAppearance.BorderColor = TransparentColor;
             

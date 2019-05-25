@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modules\TeaModule.cs" />
     <Compile Include="ViewModels\Embed\Home.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -94,13 +95,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Teas.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Modules\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Resources\baseline_aspect_ratio_white_18dp.png" />
     <Content Include="Resources\baseline_close_white_18dp.png" />

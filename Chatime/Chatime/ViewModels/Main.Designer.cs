@@ -138,9 +138,9 @@
             this.WebsiteButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("WebsiteButton.BackgroundImage")));
             this.WebsiteButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.WebsiteButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.WebsiteButton.Location = new System.Drawing.Point(0, 145);
+            this.WebsiteButton.Location = new System.Drawing.Point(0, 148);
             this.WebsiteButton.Name = "WebsiteButton";
-            this.WebsiteButton.Size = new System.Drawing.Size(75, 109);
+            this.WebsiteButton.Size = new System.Drawing.Size(75, 52);
             this.WebsiteButton.TabIndex = 9;
             this.WebsiteButton.UseVisualStyleBackColor = true;
             // 
@@ -150,7 +150,7 @@
             this.InstagramButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("InstagramButton.BackgroundImage")));
             this.InstagramButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.InstagramButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.InstagramButton.Location = new System.Drawing.Point(0, 410);
+            this.InstagramButton.Location = new System.Drawing.Point(0, 404);
             this.InstagramButton.Name = "InstagramButton";
             this.InstagramButton.Size = new System.Drawing.Size(75, 52);
             this.InstagramButton.TabIndex = 8;
@@ -162,7 +162,7 @@
             this.FacebookButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FacebookButton.BackgroundImage")));
             this.FacebookButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.FacebookButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FacebookButton.Location = new System.Drawing.Point(0, 358);
+            this.FacebookButton.Location = new System.Drawing.Point(0, 353);
             this.FacebookButton.Name = "FacebookButton";
             this.FacebookButton.Size = new System.Drawing.Size(75, 52);
             this.FacebookButton.TabIndex = 7;

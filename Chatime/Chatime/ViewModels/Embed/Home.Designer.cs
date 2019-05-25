@@ -63,8 +63,7 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox SliderBox;
         private System.Windows.Forms.Timer timer1;
+        public System.Windows.Forms.PictureBox SliderBox;
     }
 }

@@ -12,11 +12,13 @@ namespace Chatime.ViewModels.Embed
 {
     public partial class Home : UserControl
     {
+        
         public Home()
         {
             InitializeComponent();
+            LoadNextImage();
         }
-
+         
         private int ImageNumber = 1;
 
         private void LoadNextImage()
@@ -24,7 +26,6 @@ namespace Chatime.ViewModels.Embed
             if(ImageNumber == 1)
             {
                 SliderBox.Load("https://chatime.com.au/wp-content/uploads/sites/6/2019/05/190319_Chatime_Hot_Fruity_Generic_1920x650_Desktop.jpg");
-                SliderBox.Visible = true;
             }
 
             if(ImageNumber == 2)
