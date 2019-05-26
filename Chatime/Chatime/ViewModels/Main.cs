@@ -113,5 +113,20 @@ namespace Chatime
         {
             Application.Exit();
         }
+
+        private void InfoButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TeaButton_Click(object sender, EventArgs e)
+        {
+            teas1.BringToFront();
+        }
+
+        private void HomeButton_Click(object sender, EventArgs e)
+        {
+            home1.BringToFront();
+        }
     }
 }

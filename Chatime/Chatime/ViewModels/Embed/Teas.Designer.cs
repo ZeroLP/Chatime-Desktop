@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.TeaBox = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.Tea1 = new System.Windows.Forms.Button();
             this.Tea2 = new System.Windows.Forms.Button();
@@ -41,19 +40,18 @@
             this.Tea9 = new System.Windows.Forms.Button();
             this.Tea10 = new System.Windows.Forms.Button();
             this.Tea11 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.TeaBox)).BeginInit();
+            this.Tea12 = new System.Windows.Forms.Button();
+            this.Tea13 = new System.Windows.Forms.Button();
+            this.Tea14 = new System.Windows.Forms.Button();
+            this.Tea15 = new System.Windows.Forms.Button();
+            this.Tea16 = new System.Windows.Forms.Button();
+            this.Tea17 = new System.Windows.Forms.Button();
+            this.TeaBox = new System.Windows.Forms.PictureBox();
+            this.TeaLabel = new System.Windows.Forms.Label();
+            this.NameLabel = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.TeaBox)).BeginInit();
             this.SuspendLayout();
-            // 
-            // TeaBox
-            // 
-            this.TeaBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.TeaBox.Location = new System.Drawing.Point(107, 0);
-            this.TeaBox.Name = "TeaBox";
-            this.TeaBox.Size = new System.Drawing.Size(552, 253);
-            this.TeaBox.TabIndex = 0;
-            this.TeaBox.TabStop = false;
             // 
             // flowLayoutPanel1
             // 
@@ -71,9 +69,15 @@
             this.flowLayoutPanel1.Controls.Add(this.Tea9);
             this.flowLayoutPanel1.Controls.Add(this.Tea10);
             this.flowLayoutPanel1.Controls.Add(this.Tea11);
+            this.flowLayoutPanel1.Controls.Add(this.Tea12);
+            this.flowLayoutPanel1.Controls.Add(this.Tea13);
+            this.flowLayoutPanel1.Controls.Add(this.Tea14);
+            this.flowLayoutPanel1.Controls.Add(this.Tea15);
+            this.flowLayoutPanel1.Controls.Add(this.Tea16);
+            this.flowLayoutPanel1.Controls.Add(this.Tea17);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(109, 354);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(109, 462);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // Tea1
@@ -88,6 +92,7 @@
             this.Tea1.TabIndex = 0;
             this.Tea1.Text = "Assam Milky Iced Tea";
             this.Tea1.UseVisualStyleBackColor = false;
+            this.Tea1.Click += new System.EventHandler(this.Tea1_Click);
             // 
             // Tea2
             // 
@@ -219,17 +224,130 @@
             this.Tea11.Text = "Assam Milky Iced Tea";
             this.Tea11.UseVisualStyleBackColor = false;
             // 
+            // Tea12
+            // 
+            this.Tea12.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.Tea12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Tea12.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea12.ForeColor = System.Drawing.Color.White;
+            this.Tea12.Location = new System.Drawing.Point(3, 696);
+            this.Tea12.Name = "Tea12";
+            this.Tea12.Size = new System.Drawing.Size(83, 57);
+            this.Tea12.TabIndex = 11;
+            this.Tea12.Text = "Assam Milky Iced Tea";
+            this.Tea12.UseVisualStyleBackColor = false;
+            // 
+            // Tea13
+            // 
+            this.Tea13.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.Tea13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Tea13.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea13.ForeColor = System.Drawing.Color.White;
+            this.Tea13.Location = new System.Drawing.Point(3, 759);
+            this.Tea13.Name = "Tea13";
+            this.Tea13.Size = new System.Drawing.Size(83, 57);
+            this.Tea13.TabIndex = 12;
+            this.Tea13.Text = "Assam Milky Iced Tea";
+            this.Tea13.UseVisualStyleBackColor = false;
+            // 
+            // Tea14
+            // 
+            this.Tea14.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.Tea14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Tea14.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea14.ForeColor = System.Drawing.Color.White;
+            this.Tea14.Location = new System.Drawing.Point(3, 822);
+            this.Tea14.Name = "Tea14";
+            this.Tea14.Size = new System.Drawing.Size(83, 57);
+            this.Tea14.TabIndex = 13;
+            this.Tea14.Text = "Assam Milky Iced Tea";
+            this.Tea14.UseVisualStyleBackColor = false;
+            // 
+            // Tea15
+            // 
+            this.Tea15.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.Tea15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Tea15.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea15.ForeColor = System.Drawing.Color.White;
+            this.Tea15.Location = new System.Drawing.Point(3, 885);
+            this.Tea15.Name = "Tea15";
+            this.Tea15.Size = new System.Drawing.Size(83, 57);
+            this.Tea15.TabIndex = 14;
+            this.Tea15.Text = "Assam Milky Iced Tea";
+            this.Tea15.UseVisualStyleBackColor = false;
+            // 
+            // Tea16
+            // 
+            this.Tea16.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.Tea16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Tea16.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea16.ForeColor = System.Drawing.Color.White;
+            this.Tea16.Location = new System.Drawing.Point(3, 948);
+            this.Tea16.Name = "Tea16";
+            this.Tea16.Size = new System.Drawing.Size(83, 57);
+            this.Tea16.TabIndex = 15;
+            this.Tea16.Text = "Assam Milky Iced Tea";
+            this.Tea16.UseVisualStyleBackColor = false;
+            // 
+            // Tea17
+            // 
+            this.Tea17.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.Tea17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Tea17.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea17.ForeColor = System.Drawing.Color.White;
+            this.Tea17.Location = new System.Drawing.Point(3, 1011);
+            this.Tea17.Name = "Tea17";
+            this.Tea17.Size = new System.Drawing.Size(83, 57);
+            this.Tea17.TabIndex = 16;
+            this.Tea17.Text = "Assam Milky Iced Tea";
+            this.Tea17.UseVisualStyleBackColor = false;
+            // 
+            // TeaBox
+            // 
+            this.TeaBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.TeaBox.Location = new System.Drawing.Point(123, 13);
+            this.TeaBox.Name = "TeaBox";
+            this.TeaBox.Size = new System.Drawing.Size(523, 240);
+            this.TeaBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.TeaBox.TabIndex = 0;
+            this.TeaBox.TabStop = false;
+            // 
+            // TeaLabel
+            // 
+            this.TeaLabel.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.TeaLabel.AutoSize = true;
+            this.TeaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TeaLabel.Location = new System.Drawing.Point(261, 344);
+            this.TeaLabel.Name = "TeaLabel";
+            this.TeaLabel.Size = new System.Drawing.Size(150, 31);
+            this.TeaLabel.TabIndex = 2;
+            this.TeaLabel.Text = "Information";
+            // 
+            // NameLabel
+            // 
+            this.NameLabel.AutoSize = true;
+            this.NameLabel.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NameLabel.Location = new System.Drawing.Point(151, 29);
+            this.NameLabel.Name = "NameLabel";
+            this.NameLabel.Size = new System.Drawing.Size(56, 18);
+            this.NameLabel.TabIndex = 3;
+            this.NameLabel.Text = "label1";
+            // 
             // Teas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.NameLabel);
+            this.Controls.Add(this.TeaLabel);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.TeaBox);
             this.Name = "Teas";
-            this.Size = new System.Drawing.Size(662, 354);
-            ((System.ComponentModel.ISupportInitialize)(this.TeaBox)).EndInit();
+            this.Size = new System.Drawing.Size(662, 462);
             this.flowLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.TeaBox)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -248,5 +366,13 @@
         private System.Windows.Forms.Button Tea9;
         private System.Windows.Forms.Button Tea10;
         private System.Windows.Forms.Button Tea11;
+        private System.Windows.Forms.Button Tea12;
+        private System.Windows.Forms.Button Tea13;
+        private System.Windows.Forms.Button Tea14;
+        private System.Windows.Forms.Button Tea15;
+        private System.Windows.Forms.Button Tea16;
+        private System.Windows.Forms.Button Tea17;
+        private System.Windows.Forms.Label TeaLabel;
+        private System.Windows.Forms.Label NameLabel;
     }
 }

@@ -33,7 +33,6 @@
             this.MinimiseButton = new System.Windows.Forms.Button();
             this.CloseButton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.TeaButton = new System.Windows.Forms.Button();
             this.SideBar = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.WebsiteButton = new System.Windows.Forms.Button();
@@ -41,7 +40,9 @@
             this.FacebookButton = new System.Windows.Forms.Button();
             this.InfoButton = new System.Windows.Forms.Button();
             this.HomeButton = new System.Windows.Forms.Button();
+            this.TeaButton = new System.Windows.Forms.Button();
             this.home1 = new Chatime.ViewModels.Embed.Home();
+            this.teas1 = new Chatime.ViewModels.Embed.Teas();
             this.TopMenuBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SideBar.SuspendLayout();
@@ -96,18 +97,6 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
-            // 
-            // TeaButton
-            // 
-            this.TeaButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.TeaButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TeaButton.BackgroundImage")));
-            this.TeaButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.TeaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.TeaButton.Location = new System.Drawing.Point(0, 49);
-            this.TeaButton.Name = "TeaButton";
-            this.TeaButton.Size = new System.Drawing.Size(75, 52);
-            this.TeaButton.TabIndex = 4;
-            this.TeaButton.UseVisualStyleBackColor = true;
             // 
             // SideBar
             // 
@@ -179,6 +168,7 @@
             this.InfoButton.Size = new System.Drawing.Size(75, 52);
             this.InfoButton.TabIndex = 6;
             this.InfoButton.UseVisualStyleBackColor = true;
+            this.InfoButton.Click += new System.EventHandler(this.InfoButton_Click);
             // 
             // HomeButton
             // 
@@ -191,13 +181,35 @@
             this.HomeButton.Size = new System.Drawing.Size(75, 52);
             this.HomeButton.TabIndex = 5;
             this.HomeButton.UseVisualStyleBackColor = true;
+            this.HomeButton.Click += new System.EventHandler(this.HomeButton_Click);
+            // 
+            // TeaButton
+            // 
+            this.TeaButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.TeaButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TeaButton.BackgroundImage")));
+            this.TeaButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.TeaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TeaButton.Location = new System.Drawing.Point(0, 49);
+            this.TeaButton.Name = "TeaButton";
+            this.TeaButton.Size = new System.Drawing.Size(75, 52);
+            this.TeaButton.TabIndex = 4;
+            this.TeaButton.UseVisualStyleBackColor = true;
+            this.TeaButton.Click += new System.EventHandler(this.TeaButton_Click);
             // 
             // home1
             // 
-            this.home1.Location = new System.Drawing.Point(73, 53);
+            this.home1.Location = new System.Drawing.Point(76, 50);
             this.home1.Name = "home1";
-            this.home1.Size = new System.Drawing.Size(905, 456);
-            this.home1.TabIndex = 6;
+            this.home1.Size = new System.Drawing.Size(902, 462);
+            this.home1.TabIndex = 7;
+            // 
+            // teas1
+            // 
+            this.teas1.BackColor = System.Drawing.Color.White;
+            this.teas1.Location = new System.Drawing.Point(73, 50);
+            this.teas1.Name = "teas1";
+            this.teas1.Size = new System.Drawing.Size(905, 462);
+            this.teas1.TabIndex = 6;
             // 
             // Main
             // 
@@ -205,6 +217,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(978, 511);
             this.Controls.Add(this.home1);
+            this.Controls.Add(this.teas1);
             this.Controls.Add(this.SideBar);
             this.Controls.Add(this.TopMenuBar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -231,6 +244,7 @@
         private System.Windows.Forms.Button InstagramButton;
         private System.Windows.Forms.Button WebsiteButton;
         private System.Windows.Forms.Panel panel1;
+        private ViewModels.Embed.Teas teas1;
         private ViewModels.Embed.Home home1;
     }
 }

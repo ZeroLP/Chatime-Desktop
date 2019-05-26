@@ -4,13 +4,13 @@
     "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_Assam_755x950.png",
     "Information": "R 1092kJ, L 1610kJ"
   },
-  
+
   "Tea2": {
     "Name": "Milky Chocolate Iced Tea",
     "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_Chocolate_755x950.png",
     "Information": "R 1668kJ, L 2160kJ"
   },
-  
+
   "Tea3": {
     "Name": "Coconut Milky Iced Tea",
     "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_Coconut_755x950.png",
@@ -21,5 +21,83 @@
     "Name": "Earl Grey Milky Iced Tea",
     "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_EarlGrey_755x950.png",
     "Information": "R 1103kJ, L 1490kJ"
+  },
+
+  "Tea5": {
+    "Name": "Hazelnut Milky Iced Tea",
+    "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_Hazelnut_755x950.png",
+    "Information": "R 1018kJ, L 1346kJ"
+  },
+
+  "Tea6": {
+    "Name": "Honeydew Milky Iced Tea",
+    "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_Honeydew_755x950.png",
+    "Information": "R 907kJ — L 1195kJ"
+  },
+
+  "Tea7": {
+    "Name": "Jasmine Milky Iced Tea",
+    "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_Jasmine_755x950.png",
+    "Information": "R 1155kJ, L 1670kJ"
+  },
+
+  "Tea8": {
+    "Name": "Mango Milky Iced Tea",
+    "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_Mango_755x950.png",
+    "Information": "R 1028kJ, L 1360kJ"
+  },
+
+  "Tea9": {
+    "Name": "Matcha Latte Milky Iced Tea",
+    "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_MatchaLatte_755x950.png",
+    "Information": "R 794kJ, L 1049kJ"
+  },
+
+  "Tea10": {
+    "Name": "Oolong Milky Iced Tea",
+    "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_Oolong_755x950.png",
+    "Information": "R 1110kJ, L 1580kJ"
+  },
+
+  "Tea11": {
+    "Name": "Premium Milky Iced Tea",
+    "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_Premium_755x950.png",
+    "Information": "R 1263kJ, L 1643kJ"
+  },
+
+  "Tea12": {
+    "Name": "Premium Pearl Milky Iced Tea",
+    "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_PremiumPearl_755x950.png",
+    "Information": "R 1563kJ, L 1996kJ"
+  },
+
+  "Tea13": {
+    "Name": "Roasted Milky Iced Tea",
+    "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_Roasted_755x950.png",
+    "Information": "R 1225kJ, L 1620kJ"
+  },
+
+  "Tea14": {
+    "Name": "Strawberry Milky Iced Tea",
+    "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_Strawberry_755x950.png",
+    "Information": "R 1082kJ, L 1426kJ"
+  },
+
+  "Tea15": {
+    "Name": "Taro Milky Iced Tea",
+    "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_Taro_755x950.png",
+    "Information": "R 1668kJ, L 2204kJ"
+  },
+
+  "Tea16": {
+    "Name": "Thai Milky Iced Tea",
+    "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_Thai_755x950.png",
+    "Information": "R 1431kJ, L 1888kJ"
+  },
+
+  "Tea17": {
+    "Name": "Vanilla Milky Iced Tea",
+    "Image": "https://chatime.com.au/wp-content/uploads/sites/6/2017/06/Chatime_Menu_Drinks_Milky_Vanilla_755x950.png",
+    "Information": "R 997kJ, L 1313kJ"
   }
 }
