@@ -132,6 +132,7 @@
             this.WebsiteButton.Size = new System.Drawing.Size(75, 52);
             this.WebsiteButton.TabIndex = 9;
             this.WebsiteButton.UseVisualStyleBackColor = true;
+            this.WebsiteButton.Click += new System.EventHandler(this.WebsiteButton_Click);
             // 
             // InstagramButton
             // 
@@ -144,6 +145,7 @@
             this.InstagramButton.Size = new System.Drawing.Size(75, 52);
             this.InstagramButton.TabIndex = 8;
             this.InstagramButton.UseVisualStyleBackColor = true;
+            this.InstagramButton.Click += new System.EventHandler(this.InstagramButton_Click);
             // 
             // FacebookButton
             // 
@@ -156,6 +158,7 @@
             this.FacebookButton.Size = new System.Drawing.Size(75, 52);
             this.FacebookButton.TabIndex = 7;
             this.FacebookButton.UseVisualStyleBackColor = true;
+            this.FacebookButton.Click += new System.EventHandler(this.FacebookButton_Click);
             // 
             // InfoButton
             // 
@@ -198,9 +201,9 @@
             // 
             // home1
             // 
-            this.home1.Location = new System.Drawing.Point(76, 50);
+            this.home1.Location = new System.Drawing.Point(73, 50);
             this.home1.Name = "home1";
-            this.home1.Size = new System.Drawing.Size(902, 462);
+            this.home1.Size = new System.Drawing.Size(905, 462);
             this.home1.TabIndex = 7;
             // 
             // teas1

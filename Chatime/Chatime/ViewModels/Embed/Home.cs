@@ -37,6 +37,7 @@ namespace Chatime.ViewModels.Embed
             {
                 SliderBox.Load("https://chatime.com.au/wp-content/uploads/sites/6/2019/03/homepage-referafriend.jpeg");
                 ImageNumber = 1;
+                return;
             }
             ImageNumber++;
         }

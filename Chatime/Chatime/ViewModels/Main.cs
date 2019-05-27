@@ -116,7 +116,7 @@ namespace Chatime
 
         private void InfoButton_Click(object sender, EventArgs e)
         {
-
+            //TODO
         }
 
         private void TeaButton_Click(object sender, EventArgs e)
@@ -127,6 +127,21 @@ namespace Chatime
         private void HomeButton_Click(object sender, EventArgs e)
         {
             home1.BringToFront();
+        }
+
+        private void WebsiteButton_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://chatime.com.au/");
+        }
+
+        private void FacebookButton_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.facebook.com/CHATIMEAustralia/");
+        }
+
+        private void InstagramButton_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.instagram.com/chatimeaustralia");
         }
     }
 }

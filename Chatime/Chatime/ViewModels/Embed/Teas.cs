@@ -146,5 +146,117 @@ namespace Chatime.ViewModels.Embed
             TeaLabel.Text = TModule.Tea1.Information;
             NameLabel.Text = TModule.Tea1.Name;
         }
+
+        private void Tea2_Click(object sender, EventArgs e)
+        {
+            TeaBox.Load(TModule.Tea2.Image);
+            TeaLabel.Text = TModule.Tea2.Information;
+            NameLabel.Text = TModule.Tea2.Name;
+        }
+
+        private void Tea3_Click(object sender, EventArgs e)
+        {
+            TeaBox.Load(TModule.Tea3.Image);
+            TeaLabel.Text = TModule.Tea3.Information;
+            NameLabel.Text = TModule.Tea3.Name;
+        }
+
+        private void Tea4_Click(object sender, EventArgs e)
+        {
+            TeaBox.Load(TModule.Tea4.Image);
+            TeaLabel.Text = TModule.Tea4.Information;
+            NameLabel.Text = TModule.Tea4.Name;
+        }
+
+        private void Tea5_Click(object sender, EventArgs e)
+        {
+            TeaBox.Load(TModule.Tea5.Image);
+            TeaLabel.Text = TModule.Tea5.Information;
+            NameLabel.Text = TModule.Tea5.Name;
+        }
+
+        private void Tea6_Click(object sender, EventArgs e)
+        {
+            TeaBox.Load(TModule.Tea6.Image);
+            TeaLabel.Text = TModule.Tea6.Information;
+            NameLabel.Text = TModule.Tea6.Name;
+        }
+
+        private void Tea7_Click(object sender, EventArgs e)
+        {
+            TeaBox.Load(TModule.Tea7.Image);
+            TeaLabel.Text = TModule.Tea7.Information;
+            NameLabel.Text = TModule.Tea7.Name;
+        }
+
+        private void Tea8_Click(object sender, EventArgs e)
+        {
+            TeaBox.Load(TModule.Tea8.Image);
+            TeaLabel.Text = TModule.Tea8.Information;
+            NameLabel.Text = TModule.Tea8.Name;
+        }
+
+        private void Tea9_Click(object sender, EventArgs e)
+        {
+            TeaBox.Load(TModule.Tea9.Image);
+            TeaLabel.Text = TModule.Tea9.Information;
+            NameLabel.Text = TModule.Tea9.Name;
+        }
+
+        private void Tea10_Click(object sender, EventArgs e)
+        {
+            TeaBox.Load(TModule.Tea10.Image);
+            TeaLabel.Text = TModule.Tea10.Information;
+            NameLabel.Text = TModule.Tea10.Name;
+        }
+
+        private void Tea11_Click(object sender, EventArgs e)
+        {
+            TeaBox.Load(TModule.Tea11.Image);
+            TeaLabel.Text = TModule.Tea11.Information;
+            NameLabel.Text = TModule.Tea11.Name;
+        }
+
+        private void Tea12_Click(object sender, EventArgs e)
+        {
+            TeaBox.Load(TModule.Tea12.Image);
+            TeaLabel.Text = TModule.Tea12.Information;
+            NameLabel.Text = TModule.Tea12.Name;
+        }
+
+        private void Tea13_Click(object sender, EventArgs e)
+        {
+            TeaBox.Load(TModule.Tea13.Image);
+            TeaLabel.Text = TModule.Tea13.Information;
+            NameLabel.Text = TModule.Tea13.Name;
+        }
+
+        private void Tea14_Click(object sender, EventArgs e)
+        {
+            TeaBox.Load(TModule.Tea14.Image);
+            TeaLabel.Text = TModule.Tea14.Information;
+            NameLabel.Text = TModule.Tea14.Name;
+        }
+
+        private void Tea15_Click(object sender, EventArgs e)
+        {
+            TeaBox.Load(TModule.Tea15.Image);
+            TeaLabel.Text = TModule.Tea15.Information;
+            NameLabel.Text = TModule.Tea15.Name;
+        }
+
+        private void Tea16_Click(object sender, EventArgs e)
+        {
+            TeaBox.Load(TModule.Tea16.Image);
+            TeaLabel.Text = TModule.Tea16.Information;
+            NameLabel.Text = TModule.Tea16.Name;
+        }
+
+        private void Tea17_Click(object sender, EventArgs e)
+        {
+            TeaBox.Load(TModule.Tea17.Image);
+            TeaLabel.Text = TModule.Tea17.Information;
+            NameLabel.Text = TModule.Tea17.Name;
+        }
     }
 }

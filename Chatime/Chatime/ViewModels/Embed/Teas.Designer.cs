@@ -84,7 +84,7 @@
             // 
             this.Tea1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Tea1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Tea1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tea1.ForeColor = System.Drawing.Color.White;
             this.Tea1.Location = new System.Drawing.Point(3, 3);
             this.Tea1.Name = "Tea1";
@@ -98,7 +98,7 @@
             // 
             this.Tea2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Tea2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Tea2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tea2.ForeColor = System.Drawing.Color.White;
             this.Tea2.Location = new System.Drawing.Point(3, 66);
             this.Tea2.Name = "Tea2";
@@ -106,12 +106,13 @@
             this.Tea2.TabIndex = 1;
             this.Tea2.Text = "Assam Milky Iced Tea";
             this.Tea2.UseVisualStyleBackColor = false;
+            this.Tea2.Click += new System.EventHandler(this.Tea2_Click);
             // 
             // Tea3
             // 
             this.Tea3.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Tea3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Tea3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tea3.ForeColor = System.Drawing.Color.White;
             this.Tea3.Location = new System.Drawing.Point(3, 129);
             this.Tea3.Name = "Tea3";
@@ -124,7 +125,7 @@
             // 
             this.Tea4.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Tea4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Tea4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tea4.ForeColor = System.Drawing.Color.White;
             this.Tea4.Location = new System.Drawing.Point(3, 192);
             this.Tea4.Name = "Tea4";
@@ -132,12 +133,13 @@
             this.Tea4.TabIndex = 3;
             this.Tea4.Text = "Assam Milky Iced Tea";
             this.Tea4.UseVisualStyleBackColor = false;
+            this.Tea4.Click += new System.EventHandler(this.Tea4_Click);
             // 
             // Tea5
             // 
             this.Tea5.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Tea5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Tea5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tea5.ForeColor = System.Drawing.Color.White;
             this.Tea5.Location = new System.Drawing.Point(3, 255);
             this.Tea5.Name = "Tea5";
@@ -145,12 +147,13 @@
             this.Tea5.TabIndex = 4;
             this.Tea5.Text = "Assam Milky Iced Tea";
             this.Tea5.UseVisualStyleBackColor = false;
+            this.Tea5.Click += new System.EventHandler(this.Tea5_Click);
             // 
             // Tea6
             // 
             this.Tea6.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Tea6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Tea6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tea6.ForeColor = System.Drawing.Color.White;
             this.Tea6.Location = new System.Drawing.Point(3, 318);
             this.Tea6.Name = "Tea6";
@@ -158,12 +161,13 @@
             this.Tea6.TabIndex = 5;
             this.Tea6.Text = "Assam Milky Iced Tea";
             this.Tea6.UseVisualStyleBackColor = false;
+            this.Tea6.Click += new System.EventHandler(this.Tea6_Click);
             // 
             // Tea7
             // 
             this.Tea7.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Tea7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Tea7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tea7.ForeColor = System.Drawing.Color.White;
             this.Tea7.Location = new System.Drawing.Point(3, 381);
             this.Tea7.Name = "Tea7";
@@ -171,12 +175,13 @@
             this.Tea7.TabIndex = 6;
             this.Tea7.Text = "Assam Milky Iced Tea";
             this.Tea7.UseVisualStyleBackColor = false;
+            this.Tea7.Click += new System.EventHandler(this.Tea7_Click);
             // 
             // Tea8
             // 
             this.Tea8.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Tea8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Tea8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tea8.ForeColor = System.Drawing.Color.White;
             this.Tea8.Location = new System.Drawing.Point(3, 444);
             this.Tea8.Name = "Tea8";
@@ -184,12 +189,13 @@
             this.Tea8.TabIndex = 7;
             this.Tea8.Text = "Assam Milky Iced Tea";
             this.Tea8.UseVisualStyleBackColor = false;
+            this.Tea8.Click += new System.EventHandler(this.Tea8_Click);
             // 
             // Tea9
             // 
             this.Tea9.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Tea9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Tea9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tea9.ForeColor = System.Drawing.Color.White;
             this.Tea9.Location = new System.Drawing.Point(3, 507);
             this.Tea9.Name = "Tea9";
@@ -197,12 +203,13 @@
             this.Tea9.TabIndex = 8;
             this.Tea9.Text = "Assam Milky Iced Tea";
             this.Tea9.UseVisualStyleBackColor = false;
+            this.Tea9.Click += new System.EventHandler(this.Tea9_Click);
             // 
             // Tea10
             // 
             this.Tea10.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Tea10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Tea10.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tea10.ForeColor = System.Drawing.Color.White;
             this.Tea10.Location = new System.Drawing.Point(3, 570);
             this.Tea10.Name = "Tea10";
@@ -210,12 +217,13 @@
             this.Tea10.TabIndex = 9;
             this.Tea10.Text = "Assam Milky Iced Tea";
             this.Tea10.UseVisualStyleBackColor = false;
+            this.Tea10.Click += new System.EventHandler(this.Tea10_Click);
             // 
             // Tea11
             // 
             this.Tea11.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Tea11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Tea11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tea11.ForeColor = System.Drawing.Color.White;
             this.Tea11.Location = new System.Drawing.Point(3, 633);
             this.Tea11.Name = "Tea11";
@@ -223,12 +231,13 @@
             this.Tea11.TabIndex = 10;
             this.Tea11.Text = "Assam Milky Iced Tea";
             this.Tea11.UseVisualStyleBackColor = false;
+            this.Tea11.Click += new System.EventHandler(this.Tea11_Click);
             // 
             // Tea12
             // 
             this.Tea12.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Tea12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Tea12.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tea12.ForeColor = System.Drawing.Color.White;
             this.Tea12.Location = new System.Drawing.Point(3, 696);
             this.Tea12.Name = "Tea12";
@@ -236,12 +245,13 @@
             this.Tea12.TabIndex = 11;
             this.Tea12.Text = "Assam Milky Iced Tea";
             this.Tea12.UseVisualStyleBackColor = false;
+            this.Tea12.Click += new System.EventHandler(this.Tea12_Click);
             // 
             // Tea13
             // 
             this.Tea13.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Tea13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Tea13.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tea13.ForeColor = System.Drawing.Color.White;
             this.Tea13.Location = new System.Drawing.Point(3, 759);
             this.Tea13.Name = "Tea13";
@@ -249,12 +259,13 @@
             this.Tea13.TabIndex = 12;
             this.Tea13.Text = "Assam Milky Iced Tea";
             this.Tea13.UseVisualStyleBackColor = false;
+            this.Tea13.Click += new System.EventHandler(this.Tea13_Click);
             // 
             // Tea14
             // 
             this.Tea14.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Tea14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Tea14.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tea14.ForeColor = System.Drawing.Color.White;
             this.Tea14.Location = new System.Drawing.Point(3, 822);
             this.Tea14.Name = "Tea14";
@@ -262,12 +273,13 @@
             this.Tea14.TabIndex = 13;
             this.Tea14.Text = "Assam Milky Iced Tea";
             this.Tea14.UseVisualStyleBackColor = false;
+            this.Tea14.Click += new System.EventHandler(this.Tea14_Click);
             // 
             // Tea15
             // 
             this.Tea15.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Tea15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Tea15.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tea15.ForeColor = System.Drawing.Color.White;
             this.Tea15.Location = new System.Drawing.Point(3, 885);
             this.Tea15.Name = "Tea15";
@@ -275,12 +287,13 @@
             this.Tea15.TabIndex = 14;
             this.Tea15.Text = "Assam Milky Iced Tea";
             this.Tea15.UseVisualStyleBackColor = false;
+            this.Tea15.Click += new System.EventHandler(this.Tea15_Click);
             // 
             // Tea16
             // 
             this.Tea16.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Tea16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Tea16.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tea16.ForeColor = System.Drawing.Color.White;
             this.Tea16.Location = new System.Drawing.Point(3, 948);
             this.Tea16.Name = "Tea16";
@@ -288,12 +301,13 @@
             this.Tea16.TabIndex = 15;
             this.Tea16.Text = "Assam Milky Iced Tea";
             this.Tea16.UseVisualStyleBackColor = false;
+            this.Tea16.Click += new System.EventHandler(this.Tea16_Click);
             // 
             // Tea17
             // 
             this.Tea17.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.Tea17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Tea17.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tea17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tea17.ForeColor = System.Drawing.Color.White;
             this.Tea17.Location = new System.Drawing.Point(3, 1011);
             this.Tea17.Name = "Tea17";
@@ -301,6 +315,7 @@
             this.Tea17.TabIndex = 16;
             this.Tea17.Text = "Assam Milky Iced Tea";
             this.Tea17.UseVisualStyleBackColor = false;
+            this.Tea17.Click += new System.EventHandler(this.Tea17_Click);
             // 
             // TeaBox
             // 
@@ -327,12 +342,12 @@
             // NameLabel
             // 
             this.NameLabel.AutoSize = true;
-            this.NameLabel.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NameLabel.Location = new System.Drawing.Point(151, 29);
             this.NameLabel.Name = "NameLabel";
-            this.NameLabel.Size = new System.Drawing.Size(56, 18);
+            this.NameLabel.Size = new System.Drawing.Size(82, 20);
             this.NameLabel.TabIndex = 3;
-            this.NameLabel.Text = "label1";
+            this.NameLabel.Text = "Tea Name";
             // 
             // Teas
             // 
